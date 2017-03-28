@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	You make the folder into a repository tracked by git. It will allow git to track the commit history of the files in that folder.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
+	The working directory is as it's name suggests, the files in are still in progress and not ready to commit while files in the staging are ready to be commited and waiting on the other files to be commited together.
+
+	It allows me to commit multiple files in one commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	Only adding files relevant to the change to the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When I want to test different modes or different versions of a project. Branches help me keep my orginal version while I work on a different version like easy and hard mode.
+
+How do the diagrams help you visualize the branch structure?
+
+	It helps me understand the different branches will have different commit history and I will be able to revert to their different states.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It merges the changes in the two branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Manually allows me to see conflicts but may be annoying when there are many conflicts present.
